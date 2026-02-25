@@ -1,0 +1,20 @@
+{
+  "title": "Exercise: Python FizzBuzz Conditionals",
+  "slug": "exercise-python-fizzbuzz",
+  "description": "Implement FizzBuzz using an ordered if/elif/else chain with modulo checks for divisibility.",
+  "authors": [
+    "chris-cooling"
+  ],
+  "tags": [
+    "exercise",
+    "python"
+  ],
+  "duration": 10,
+  "prerequisites": [
+    "python-conditionals-if-elif-else",
+    "programming-testing-for-factors-with-modulo"
+  ],
+  "related": [
+    "sample-solution-1-python-fizzbuzz"
+  ]
+}
