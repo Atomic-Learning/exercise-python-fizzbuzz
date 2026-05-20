@@ -12,6 +12,8 @@
   "duration": 10,
   "prerequisites": [
     "python-conditionals-if-elif-else",
+    "python-comparison-operators",
+    "python-boolean-operators",
     "programming-testing-for-factors-with-modulo"
   ],
   "related": [
