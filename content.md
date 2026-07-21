@@ -26,3 +26,30 @@ a = 1
 
 # Write your if/elif/else block here
 ```
+
+# Sample Solution
+
+> [!HIDDEN]
+>
+> ## Why Order Matters
+>
+> The key to this problem is understanding that once a condition is `True`{.python}, the remaining conditions are not checked. Because of this, we must check for divisibility by both 3 and 5 first, before checking for just 3 or just 5. Otherwise, a number like 15 would match the "divisible by 3" condition and never reach the "divisible by both" check. This demonstrates a general principle in if/elif/else blocks: more specific conditions should be checked before more general ones.
+> 
+> ## The Solution
+> 
+> Here is one correct solution:
+> 
+> ```py-cell
+> a = 15
+> 
+> if a % 3 == 0 and a % 5 == 0:
+>     print("FizzBuzz")
+> elif a % 3 == 0:
+>     print("Fizz")
+> elif a % 5 == 0:
+>     print("Buzz")
+> else:
+>     print(a)
+> ```
+
+> Change the value of the variable `a` to test different cases (suggested values: 15, 3, 10, 7).
