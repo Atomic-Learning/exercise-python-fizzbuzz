@@ -15,7 +15,7 @@ Test your code with different values of `a`{.python}. For example:
 
 ## Hints
 
-> [!HIDDEN] Show hints
+> [!HIDDEN]
 > * Think carefully about the order of your conditions.
 > * Use the modulo operator `\%`{.python} to check if a number is divisible by another (if `n % d == 0`{.python}, then `n`{.python} is divisible by `d`{.python})
 
