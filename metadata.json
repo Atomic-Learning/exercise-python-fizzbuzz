@@ -9,7 +9,7 @@
     "exercise",
     "python"
   ],
-  "duration": 10,
+  "duration": 12,
   "prerequisites": [
     "python-conditionals-if-elif-else",
     "python-comparison-operators",
@@ -17,6 +17,5 @@
     "programming-testing-for-factors-with-modulo"
   ],
   "related": [
-    "sample-solution-1-python-fizzbuzz"
   ]
 }
